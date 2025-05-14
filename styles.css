@@ -100,3 +100,33 @@ img{
     align-items: center;
     column-gap: 1rem;
 }
+
+/* SERVICES SECTION STYLING */
+
+#services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+    padding: 4rem 12rem;
+}
+
+.services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-card{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    row-gap: 1rem;
+    padding: 2rem 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin: 1rem;
+    border-radius: 10px;
+}
