@@ -8,23 +8,65 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <div class="logo-image">
-                Image
+    <header class="bg-gray-900 text-white sticky top-0 z-50 shadow-md">
+        <div class="container">
+            <a href="#" class="logo">
+                <span class="logo-text-xl">UI</span>
+                <span class="logo-text-md">Portfolio</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">Blog
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 011.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="#">Blog List</a>
+                            <a href="#">Blog Post</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">Pages
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 011.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="#">About Us</a>
+                            <a href="#">Services</a>
+                            <a href="#">Contact</a>
+                        </div>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="actions flex items-center gap-4">
+                <a href="#" class="hire-me-button">Hire Me</a>
+                <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+                <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle Dark Mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
             </div>
-            <div class="brand-name">
-                <h2>kalwenzi</h2>
+            <div class="mobile-menu-button">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </div>
+            <div class="mobile-menu hidden" id="mobile-menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Blog</a>
+                <a href="#">Pages</a>
+                <a href="#">Contact</a>
+                <a href="#">Hire Me</a>
             </div>
         </div>
-        <nav>
-            <div class="nav-links">
-                
-            </div>
-            <div class="nav-icons">
-
-            </div>
-        </nav>
     </header>
     <main>
         <section id="hero">
