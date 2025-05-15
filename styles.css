@@ -234,18 +234,19 @@ img{
 
 /* BRAND PARTNERS STYLING */
 #brand-partners{
-    padding: 4rem 12rem;
+    padding: 2rem 12rem;
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 2rem;
-    background-color: teal;
+    background-color: #26774a;
 }
 
 .brand-partners-img{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     margin: 0;
+    background-color: #26774a;
 }
 
 /* FOOTER STYLING */
