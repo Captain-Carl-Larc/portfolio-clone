@@ -247,3 +247,45 @@ img{
     height: 150px;
     margin: 0;
 }
+
+/* FOOTER STYLING */
+footer{
+    
+    margin-top: 2rem;    
+    background-color: teal;
+}
+
+.links{
+    padding: 4rem 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+    flex-direction: column;
+    background-color: rgb(2, 38, 38);
+    color: whitesmoke;
+}
+
+.brand-address,.brand-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+    padding: 1rem 12rem;
+    background-color: rgb(0, 8, 8);
+    color: whitesmoke;
+}
+
+.social-media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+}
