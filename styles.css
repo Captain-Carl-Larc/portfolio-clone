@@ -18,11 +18,11 @@ ul,ol,li{
 }
 button{
     cursor: pointer;
-    padding: 1rem 2rem;
-    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
     border: none;
     outline: none;
-    background-color: #000;
+    background-color: #05865f;
     color: #fff;
 }
 
@@ -63,7 +63,7 @@ img{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    padding: 0rem 12rem;
+    padding: 4rem 12rem;
     justify-content: center;    
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
@@ -78,6 +78,17 @@ img{
     row-gap:20px;
     width: 80%;    
 }
+.about-image-container{
+    /* background-color: red; */
+    display: flex  ;
+    justify-content: end;
+}
+
+.about-img{
+    width: 250px;
+    height: auto;
+    border-radius: 5px;    
+}
 
 .about-contact-cont{
     border-top: 1.5px solid rgb(45, 44, 44);
@@ -87,7 +98,18 @@ img{
     justify-content: space-between;
     align-items: center;   
 }
-
+.about-text-cont h2{
+    opacity: 0.6;
+    font-size: 0.8rem;
+}
+.contact-col{
+    font-size: 0.8rem;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.3rem;
+    font-weight: 600;
+}
 .media-icons{
     display: flex;
     justify-content: start;
@@ -99,6 +121,32 @@ img{
     justify-content: start;
     align-items: center;
     column-gap: 1rem;
+}
+.media-icons ul li a i{
+    color: rgb(0, 128, 77);
+}
+#hire-me-btn{
+    background-color: rgb(6, 83, 48);
+    color: white;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+#hire-me-btn a{
+    color: white;
+    font-weight: 600;
+}
+
+#download-cv-btn{
+    background-color: rgb(12, 199, 115);
+    color: white;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+#download-cv-btn a{
+    color: white;
+    font-weight: 600;
 }
 
 /* SERVICES SECTION STYLING */
@@ -131,6 +179,19 @@ img{
     border-radius: 10px;
 }
 
+.service-card p i{
+    font-size: 2rem;
+    color: rgb(10, 152, 90);
+}
+.service-card p{
+    opacity: 0.6;
+}
+
+.more-services-link{
+    color: rgb(10, 152, 90);
+    font-weight: bold;
+    opacity: 0.7;
+}
 /* SKILLS SECTION STYLING */
 
 #skills{
