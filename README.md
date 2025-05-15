@@ -14,9 +14,7 @@ This project is a portfolio website designed to showcase personal or professiona
 
 ## File Structure
 - `index.html`: Contains the main structure of the website.
-- `home.html`: Includes additional sections and navigation logic.
 - `styles.css`: Defines the styling for all sections, including responsiveness.
-- `script.js`: Handles interactivity, such as the hamburger menu toggle.
 - `README.md`: Documentation for the project.
 
 ## Code Review and Maintenance Notes
@@ -31,14 +29,9 @@ This project is a portfolio website designed to showcase personal or professiona
 3. **Variables**: Consider using CSS variables for colors and font sizes to simplify future updates.
 4. **Media Queries**: Ensure all breakpoints are tested on various devices.
 
-### JavaScript
-1. **Event Listeners**: Ensure all event listeners are properly removed when not needed to avoid memory leaks.
-2. **Error Handling**: Add error handling for dynamic features like the hamburger menu.
-3. **Code Optimization**: Minimize repetitive code by creating reusable functions.
-
-## Future Improvements
+### Future Improvements
 1. **Dark Mode**: Add a toggle for dark mode to enhance user experience.
-2. **Animations**: Use CSS animations or JavaScript libraries to add subtle animations to sections.
+2. **Animations**: Use CSS animations to add subtle animations to sections.
 3. **Form Validation**: Implement client-side validation for any forms.
 4. **Accessibility**: Conduct an accessibility audit to ensure the website meets WCAG standards.
 5. **Performance**: Optimize images and use lazy loading to improve page load times.
