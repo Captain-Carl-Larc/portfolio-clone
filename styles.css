@@ -224,12 +224,25 @@ img{
     justify-content: center;
     align-items: center;
     row-gap: 2rem;    
+    background-color: rgba(217, 212, 205, 0.646);
+}
+#my-work h2{
+    color: #1a1a1a;
+    opacity: 0.8;
 }
 
 .my-work-img{
     width: 200px;
     height: 160px;
     margin: 0;
+    border-radius:5px;
+}
+.my-works-col-2,.my-works-col-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    column-gap: 1rem;
+    margin-top: 1rem;
 }
 
 /* BRAND PARTNERS STYLING */
