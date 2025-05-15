@@ -173,3 +173,35 @@ img{
     width: 200px;
     height: 200px;
 }
+
+/* ACTIVITIES SECTION STYLE */
+
+#activities{
+    padding: 4rem 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.activities-text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+}
+.col-1,.col-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.activity-card{
+    display: flex;
+    justify-content: center;
+    align-items: start;  
+    column-gap: 0.5rem;
+    
+}
