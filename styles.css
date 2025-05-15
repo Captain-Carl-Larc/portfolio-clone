@@ -207,12 +207,17 @@ img{
 
 /* STATS SECTION STYLNG */
 #stats{
-    padding: 8rem 12rem;
+    padding: 4rem 12rem;
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 4rem;
-    background-color: teal;
+    background-color: white;
+}
+#stats div p{
+    opacity: 0.6;
+    font-size: 0.8rem;
+    padding-top: 0.2rem;
 }
 
 /* MY WORKS SECTION STYLING */
