@@ -135,7 +135,10 @@ img{
 
 #skills{
     padding: 4rem 12rem;
-       
+    background-color: white;
+}
+.featured-skills-text{
+    opacity: 0;
 }
 
 .featured-skills-cont{
@@ -161,7 +164,9 @@ img{
     min-width: 200px;
     width: 200px;
     height: 100px;
-    background-color: yellow;
+    background-image: url("https://images.pexels.com/photos/2102416/pexels-photo-2102416.jpeg?auto=compress&cs=tinysrgb&w=600");
+    /* background-color: yellow; */
+    border-radius: 5px;
     padding-right: 50px;
 }
 #featured-skills-div p,.other-skills p{
@@ -169,11 +174,62 @@ img{
 }
 
 .other-skills{
-    background-color: blue;
+    /* background-color: blue; */
     width: 200px;
     height: 200px;
+    border-radius: 5px;
+    background-image: url("https://images.pexels.com/photos/2102416/pexels-photo-2102416.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+.other-skills-text{
+    max-width: 400px;
+}
+.other-skills-text p{
+    opacity: 0.7;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
 }
 
+.title h4{
+    opacity: 0.6;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 0.5rem;
+}
+.title h2{
+    opacity: 0.8;
+}
+.skills-level{
+    padding-top: 2rem;
+}
+
+.skill-bar {
+  margin-bottom: 15px; /* Spacing between skill bars */
+  display: flex; /* To align the skill name and progress bar */
+  flex-direction: column;
+  align-items: start; /* Vertically align items */
+}
+
+.skill-name {
+  width: 150px; /* Adjust width as needed */
+  margin-right: 10px;
+  font-size: 1em; /* Adjust font size */
+  color: #333; /* Adjust text color */
+}
+
+.progress-bar {
+  background-color: #f0f0f0; /* Light grey background */
+  border-radius: 5px; /* Rounded corners */
+  height: 5px; /* Height of the progress bar track */
+  width: 100%; /* Make it fill the available space */
+  overflow: hidden; /* To contain the progress within the rounded corners */
+}
+
+.progress {
+  background-color: #20b2aa; /* Teal color for the filled part - adjust to your preference */
+  height: 100%; /* Fill the height of the progress bar track */
+  border-radius: 5px; /* Match the progress bar track's border radius */
+}
 /* ACTIVITIES SECTION STYLE */
 
 #activities{
