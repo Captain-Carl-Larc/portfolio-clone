@@ -214,3 +214,36 @@ img{
     column-gap: 4rem;
     background-color: teal;
 }
+
+/* MY WORKS SECTION STYLING */
+
+#my-work{
+    padding: 4rem 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;    
+}
+
+.my-work-img{
+    width: 200px;
+    height: 160px;
+    margin: 0;
+}
+
+/* BRAND PARTNERS STYLING */
+#brand-partners{
+    padding: 4rem 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+    background-color: teal;
+}
+
+.brand-partners-img{
+    width: 150px;
+    height: 150px;
+    margin: 0;
+}
