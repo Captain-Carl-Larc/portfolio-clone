@@ -134,47 +134,42 @@ img{
 /* SKILLS SECTION STYLING */
 
 #skills{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    row-gap: 2rem;
-         
+    padding: 4rem 12rem;
+       
 }
 
-.featured-skills-cont, .other-skills-cont{
+.featured-skills-cont{
     display: flex;
     justify-content: center;
-    align-items: center;    
-    column-gap: 2rem;    
+    align-items: center;       
+    width: 100%;
+    min-width: 800px;
+    column-gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.other-skills-cont{    
+    width: 100%;
+    min-width: 800px;
+    display: flex;
+    column-gap: 2rem;
+    margin-bottom: 4rem;
+    
 }
 
 #featured-skills-div{
-    /* background-image: url("https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600"); */
-    background-color: blue;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width:200px;
-    height:200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 2rem;    
+    min-width: 200px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    padding-right: 50px;
 }
+#featured-skills-div p,.other-skills p{
+    opacity: 0;
+}
+
 .other-skills{
-    /* background-image: url("https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600"); */
     background-color: blue;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width:200px;
-    height:200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 2rem;    
-}
-
-
-.other-skills p,#featured-skills-div p{
-    opacity:0;
+    width: 200px;
+    height: 200px;
 }
